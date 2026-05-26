@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber World</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div>
+        <h1>Cyber World</h1>
+        <p class="subtitle">An autonomous agent simulation in the browser</p>
+      </div>
+      <div class="header-actions">
+        <button id="startButton">Start</button>
+        <button id="pauseButton">Pause</button>
+        <button id="stepButton">Step</button>
+        <button id="resetButton">Reset</button>
+      </div>
+    </header>
+
+    <main class="app-main">
+      <section class="canvas-panel">
+        <canvas id="gameCanvas" width="720" height="560"></canvas>
+        <div class="legend">
+          <strong>Legend</strong>
+          <div><span class="legend-color food"></span>Food</div>
+          <div><span class="legend-color obstacle"></span>Obstacle</div>
+          <div><span class="legend-color hunter"></span>Hunter</div>
+          <div><span class="legend-color gatherer"></span>Gatherer</div>
+          <div><span class="legend-color scavenger"></span>Scavenger</div>
+          <div><span class="legend-color empty"></span>Empty</div>
+        </div>
+        <div class="hint-card">
+          <h3>How to play</h3>
+          <p>Watch autonomous agents compete for resources in a compact cybernetic environment. Each turn, agents move, search for food, and react to obstacles.</p>
+          <ul>
+            <li><strong>Hunters</strong> push forward aggressively.</li>
+            <li><strong>Gatherers</strong> seek food more systematically.</li>
+            <li><strong>Scavengers</strong> roam and adapt.</li>
+          </ul>
+        </div>
+      </section>
+
+      <aside class="stats-panel">
+        <div class="stats-card">
+          <h2>Simulation</h2>
+          <div class="stat-row"><span>Turn</span><span id="turnCount">0</span></div>
+          <div class="stat-row"><span>Agents</span><span id="agentCount">0</span></div>
+          <div class="stat-row"><span>Speed</span><span id="speedValue">500ms</span></div>
+          <div class="stat-row"><span>Status</span><span id="statusValue">Paused</span></div>
+          <label class="speed-label">Speed</label>
+          <input id="speedSlider" type="range" min="100" max="1000" step="100" value="500" />
+        </div>
+
+        <div class="stats-card">
+          <h2>Agent Details</h2>
+          <div id="agentList" class="agent-list"></div>
+        </div>
+      </aside>
+    </main>
+    <footer class="app-footer">
+      Cyber World • Autonomous agents, browser simulation, and tactical emergence.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

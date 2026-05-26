@@ -1,7 +1,7 @@
 import javax.swing.*;
 
 /**
- * Main entry point for the Clanker World game
+ * Main entry point for the Cyber World game
  */
 public class Universe {
     public static void main(String[] args) {

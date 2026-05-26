@@ -23,7 +23,7 @@ public class GameWindow extends JFrame {
     
     public GameWindow(World world) {
         this.world = world;
-        setTitle("Clanker World - Agent Simulation Game");
+        setTitle("Cyber World - Agent Simulation Game");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(1000, 900);
         setLocationRelativeTo(null);
@@ -115,7 +115,7 @@ public class GameWindow extends JFrame {
         panel.setBorder(BorderFactory.createLineBorder(Color.DARK_GRAY, 2));
         panel.setPreferredSize(new Dimension(0, 50));
         
-        JLabel titleLabel = new JLabel("🎮 CLANKER WORLD - Agent Simulation");
+        JLabel titleLabel = new JLabel("🎮 CYBER WORLD - Agent Simulation");
         titleLabel.setFont(new Font("Arial", Font.BOLD, 18));
         titleLabel.setBorder(new EmptyBorder(10, 15, 0, 0));
         panel.add(titleLabel, BorderLayout.WEST);

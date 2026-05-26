@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Console-based version of Clanker World for headless environments
+ * Console-based version of Cyber World for headless environments
  * Run this with: java ConsoleGame
  */
 public class ConsoleGame {
@@ -40,7 +40,7 @@ public class ConsoleGame {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("\n╔════════════════════════════════════════╗");
-        System.out.println("║     CLANKER WORLD - CONSOLE MODE      ║");
+        System.out.println("║     CYBER WORLD - CONSOLE MODE      ║");
         System.out.println("╚════════════════════════════════════════╝\n");
         
         System.out.println("World initialized: " + world.getWidth() + "x" + world.getLength());

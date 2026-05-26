@@ -1,4 +1,4 @@
-# CLANKER WORLD - Complete Application
+# CYBER WORLD - Complete Application
 
 ## Summary
 The entire codebase has been rewritten as a fully-functional game application with two interfaces:

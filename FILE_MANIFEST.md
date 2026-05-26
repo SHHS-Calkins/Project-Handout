@@ -1,7 +1,7 @@
-# Clanker World - Complete File Manifest
+# Cyber World - Complete File Manifest
 
 ## Project Overview
-Clanker World is a complete agent-based simulation game with GUI and console interfaces. All functionality remains intact while the entire codebase has been transformed into a professional application.
+Cyber World is a complete agent-based simulation game with GUI and console interfaces. All functionality remains intact while the entire codebase has been transformed into a professional application.
 
 ## Core Simulation Files (Unchanged/Minimal Changes)
 
@@ -304,8 +304,8 @@ ConsoleGame.java
 ---
 
 ## Version Information
-- **Application**: Clanker World v2.0 (GUI)
-- **Alternative**: Clanker World Console v2.0
+- **Application**: Cyber World v2.0 (GUI)
+- **Alternative**: Cyber World Console v2.0
 - **Java Version Required**: 11+
 - **Created**: 2026
 - **Status**: Complete and Fully Functional

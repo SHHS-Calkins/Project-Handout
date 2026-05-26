@@ -1,7 +1,7 @@
-# Clanker World - Agent Simulation Game
+# Cyber World - Agent Simulation Game
 
 ## Overview
-Clanker World is a sophisticated agent-based simulation game where autonomous agents interact within a 2D world. Watch as hunters, gatherers, and scavengers compete for food while navigating obstacles.
+Cyber World is a sophisticated agent-based simulation game where autonomous agents interact within a 2D world. Watch as hunters, gatherers, and scavengers compete for food while navigating obstacles.
 
 ## Architecture
 
@@ -177,5 +177,5 @@ powerful.setHunterRange(5);  // Increase search range
 - Statistics graphs
 
 ## License & Credits
-Clanker World - Agent-Based Simulation Game
+Cyber World - Agent-Based Simulation Game
 Educational project for teaching OOP and game programming concepts

@@ -1,6 +1,6 @@
-# CLANKER WORLD - PROJECT INDEX & QUICK START
+# CYBER WORLD - PROJECT INDEX & QUICK START
 
-## 🎮 Welcome to Clanker World v2.0
+## 🎮 Welcome to Cyber World v2.0
 
 A complete agent-based simulation game with **professional GUI** and **console interfaces**. 
 
